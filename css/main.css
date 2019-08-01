@@ -26,3 +26,15 @@
 }
 
 .font-farro{font-family: 'Farro', sans-serif;}
+
+
+@media all and (max-width: 767px) {
+    #main-wrapper,
+    #outer-wrapper,
+    #header-wrapper{
+        width: auto !important;
+    }
+    #main-wrapper{
+        margin: 0 15px;
+    }
+}
