@@ -15,7 +15,7 @@
     bottom: 20px;
     right: 20px;
     background: url(../img/gotop.svg) center center no-repeat;
-    background-color: #555;
+    background-color: rgba(80,80,80,0.5);
     opacity: 1;
     transition: 500ms;
     -o-transition: 500ms;
