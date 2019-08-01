@@ -1,3 +1,9 @@
+.post-body{
+    line-height: 2em;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
 #photo-desc{
     margin-top: 0.5em;
     margin-bottom: 2.5em;
