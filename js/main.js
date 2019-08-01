@@ -1,17 +1,5 @@
 function initPhotoDesc(){
-	$(".post-body img").eq(0).after(
-	'<!-- GGMant_側邊欄廣告 -->\
-	<div style="width:660px;">\
-	<ins class="adsbygoogle"\
-	     style="float:left;width:300px;height:250px;margin-right:30px"\
-	     data-ad-client="ca-pub-8384162002444497"\
-	     data-ad-slot="1767154162"></ins>\
-	<ins class="adsbygoogle"\
-	     style="float:left;width:300px;height:250px;margin-left:30px"\
-	     data-ad-client="ca-pub-8384162002444497"\
-	     data-ad-slot="1767154162"></ins>\
-	</div><br/>');(adsbygoogle = window.adsbygoogle || []).push({}); (adsbygoogle = window.adsbygoogle || []).push({}); 
-
+	initTopAd();
 	var index=0;
 	$(".post-body img").each(function(){
 		var width=$(this).attr('title');
@@ -42,6 +30,32 @@ function initPhotoDesc(){
 		if(addAD)(adsbygoogle = window.adsbygoogle || []).push({}); 
 	});
 
+}
+
+function initTopAd(){
+	if($(window).width()>660){
+	$(".post-body img").eq(0).after(
+		'<!-- GGMant_側邊欄廣告 -->\
+		<div style="width:660px;">\
+		<ins class="adsbygoogle"\
+		     style="float:left;width:300px;height:250px;margin-right:30px"\
+		     data-ad-client="ca-pub-8384162002444497"\
+		     data-ad-slot="1767154162"></ins>\
+		<ins class="adsbygoogle"\
+		     style="float:left;width:300px;height:250px;margin-left:30px"\
+		     data-ad-client="ca-pub-8384162002444497"\
+		     data-ad-slot="1767154162"></ins>\
+		</div><br/>');(adsbygoogle = window.adsbygoogle || []).push({}); (adsbygoogle = window.adsbygoogle || []).push({}); 
+	}else{
+		$(".post-body img").eq(0).after(
+		'<!-- GGMant_側邊欄廣告 -->\
+		<div >\
+		<ins class="adsbygoogle"\
+		     style="display:inline-block;width:336px;height:280px;margin-right:30px"\
+		     data-ad-client="ca-pub-8384162002444497"\
+		     data-ad-slot="1767154162"></ins>\
+		</div><br/>');(adsbygoogle = window.adsbygoogle || []).push({}); 	
+	}
 }
 
 
