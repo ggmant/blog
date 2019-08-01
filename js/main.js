@@ -12,3 +12,13 @@ function initPhotoDesc(){
 		
 	});
 }
+
+
+function initalGoTop(){
+	if($("#goTop").length>0){
+		$("#goTop").click(function(){
+			var body = $("html, body");
+			body.stop().animate({scrollTop:0}, '500', 'swing', function() {});
+		});
+	}
+}

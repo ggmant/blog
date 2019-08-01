@@ -1,0 +1,16 @@
+#goTop {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: url(../img/gotop.svg) center center no-repeat;
+    background-color: #555;
+    opacity: 0;
+    transition: 500ms;
+    -o-transition: 500ms;
+    -ms-transition: 500ms;
+    -moz-transition: 500ms;
+    -webkit-transition: 500ms;
+    cursor: pointer;
+}
