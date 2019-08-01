@@ -3,14 +3,14 @@ function initPhotoDesc(){
 	'<!-- GGMant_側邊欄廣告 -->\
 	<div style="width:660px;">\
 	<ins class="adsbygoogle"\
-	     style="display:inline-block;width:300px;height:250px;margin-right:30px"\
+	     style="float:left;width:300px;height:250px;margin-right:30px"\
 	     data-ad-client="ca-pub-8384162002444497"\
 	     data-ad-slot="1767154162"></ins>\
 	<ins class="adsbygoogle"\
-	     style="display:inline-block;width:300px;height:250px;margin-left:30px"\
+	     style="float:left;width:300px;height:250px;margin-left:30px"\
 	     data-ad-client="ca-pub-8384162002444497"\
 	     data-ad-slot="1767154162"></ins>\
-	</div>');(adsbygoogle = window.adsbygoogle || []).push({}); (adsbygoogle = window.adsbygoogle || []).push({}); 
+	</div><br/>');(adsbygoogle = window.adsbygoogle || []).push({}); (adsbygoogle = window.adsbygoogle || []).push({}); 
 
 	var index=0;
 	$(".post-body img").each(function(){
@@ -41,7 +41,7 @@ function initPhotoDesc(){
 		$(this)[0].outerHTML=html+addTitle+addAD;
 		if(addAD)(adsbygoogle = window.adsbygoogle || []).push({}); 
 	});
-	
+
 }
 
 
