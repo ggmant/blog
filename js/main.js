@@ -51,7 +51,7 @@ function initTopAd(){
 		'<!-- GGMant_側邊欄廣告 -->\
 		<div >\
 		<ins class="adsbygoogle"\
-		     style="display:inline-block;width:336px;height:280px;margin-right:30px"\
+		     style="display:inline-block;width:336px;height:280px;"\
 		     data-ad-client="ca-pub-8384162002444497"\
 		     data-ad-slot="1767154162"></ins>\
 		</div><br/>');(adsbygoogle = window.adsbygoogle || []).push({}); 	
