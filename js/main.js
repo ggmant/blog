@@ -19,15 +19,18 @@ function initPhotoDesc(){
 				'<div class="ads">'+
 				'<!-- GGMant_內文廣告 -->'+
 				'<br />'+
-				'<ins class="adsbygoogle" data-ad-client="ca-pub-8384162002444497" data-ad-format="auto" data-ad-slot="1452756561" style="display: block;"></ins><script>'+
-				'(adsbygoogle = window.adsbygoogle || []).push({}); </scr'+'ipt>'+
+				'<ins class="adsbygoogle" data-ad-client="ca-pub-8384162002444497" data-ad-format="auto" data-ad-slot="1452756561" style="display: block;"></ins>'+
 				'</div>'+
 				'<!---- GGM 內文廣告:end ---->';
+
 		}
 
 		$(this)[0].outerHTML=html+addTitle+addAD;
 		
 	});
+
+	//init All Ads.
+	(adsbygoogle = window.adsbygoogle || []).push({}); 
 }
 
 
