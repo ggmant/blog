@@ -1,4 +1,4 @@
-initPhotoDesc(){
+function initPhotoDesc(){
 	$(".post-body img").each(function(){
 		var title=$(this).attr('alt');
 		var html=$(this)[0].outerHTML;
