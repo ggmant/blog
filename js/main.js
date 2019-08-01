@@ -7,7 +7,7 @@ function initPhotoDesc(){
 		var title=$(this).attr('alt');
 		var html=$(this)[0].outerHTML;
 		if(title&&title.trim()){
-			$(this)[0].outerHTML=html+'<p class="photo-desc"><span class="font-farro">“<span> '+title+' ”<span class="font-farro">”<span></p>';
+			$(this)[0].outerHTML=html+'<p class="photo-desc"><span class="font-farro">“<span> '+title+' <span class="font-farro">”<span></p>';
 		}
 		
 	});
