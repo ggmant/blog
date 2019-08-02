@@ -1,11 +1,11 @@
 $(window).ready(function(){
-	initPhotoDesc();
 	initTopAd();
+	initPhotoDesc();
+	initalGoTop();
 });
 
 
 function initPhotoDesc(){
-	initTopAd();
 	var index=0;
 	$(".post-body img").each(function(){
 		var width=$(this).attr('title');
