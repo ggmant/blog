@@ -20,7 +20,8 @@ function initPhotoDesc(){
 			addTitle='<p class="photo-desc"><span class="font-farro">“<span> '+title+' <span class="font-farro">”<span></p>';
 		}
 		index++;
-		if(index%10==0 && $(this).width()>=$(".post-body").width(){
+		var isAllowAd = $(this).width() >= $(".post-body").width();
+		if(index%10==0 && isAllowAd){
 				addAD='<!---- GGM 內文廣告:start ---->'+
 				'<br />'+
 				'<div class="ads">'+
