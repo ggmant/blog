@@ -35,7 +35,9 @@
     }
     html body #outer-wrapper {
         margin: 0px;
+        padding: 0px 0 5px;
     }
+
     #main-wrapper{
         margin: 0 15px;
     }
