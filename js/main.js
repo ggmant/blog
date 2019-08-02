@@ -1,3 +1,9 @@
+$(window).ready(function(){
+	initPhotoDesc();
+	initTopAd();
+});
+
+
 function initPhotoDesc(){
 	initTopAd();
 	var index=0;
@@ -46,15 +52,6 @@ function initTopAd(){
 		     data-ad-client="ca-pub-8384162002444497"\
 		     data-ad-slot="1767154162"></ins>\
 		</div><br/>');(adsbygoogle = window.adsbygoogle || []).push({}); (adsbygoogle = window.adsbygoogle || []).push({}); 
-	}else{
-		$(".post-body img").eq(0).after(
-		'<!-- GGMant_側邊欄廣告 -->\
-		<div >\
-		<ins class="adsbygoogle"\
-		     style="display:inline-block;width:336px;height:280px;"\
-		     data-ad-client="ca-pub-8384162002444497"\
-		     data-ad-slot="1767154162"></ins>\
-		</div><br/>');(adsbygoogle = window.adsbygoogle || []).push({}); 	
 	}
 }
 
