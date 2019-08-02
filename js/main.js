@@ -57,7 +57,8 @@ function initTopAd(){
 
 
 function initalGoTop(){
-	if($("#goTop").length>0){
+	if($("#goTop").length==0){
+		$("body").append('<div id="goTop"></div>');
 		$("#goTop").click(function(){
 			var body = $("html, body");
 			body.stop().animate({scrollTop:0}, '500', 'swing', function() {});
