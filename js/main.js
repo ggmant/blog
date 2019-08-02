@@ -1,6 +1,6 @@
 $(window).ready(function(){
 	initTopAd();
-	initPhotoDesc();
+	if(_blog.type=="item")initPhotoDesc();
 	initalGoTop();
 });
 

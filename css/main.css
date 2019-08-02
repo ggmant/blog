@@ -27,6 +27,11 @@
 .font-farro{font-family: 'Farro', sans-serif;}
 
 
+#main-wrapper .post-index{
+    width: calc(50% - 30px);
+    margin: 0 30px;
+    float: left;
+}
 @media all and (max-width: 767px) {
     #main-wrapper,
     #outer-wrapper,
@@ -40,6 +45,10 @@
 
     #main-wrapper{
         margin: 0 15px;
+    }
+    #main-wrapper .post-index{
+        width: 100%;
+        margin: 0 0px;
     }
     html .post {
         padding: 0px;
