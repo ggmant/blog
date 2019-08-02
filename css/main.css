@@ -33,7 +33,17 @@
     #header-wrapper{
         width: auto !important;
     }
+    html body #outer-wrapper {
+        margin: 0px;
+    }
     #main-wrapper{
         margin: 0 15px;
+    }
+    html .post {
+        padding: 0px;
+        margin: 10px 0;
+    }
+    html .post-body img {
+        max-width: 100%;
     }
 }
