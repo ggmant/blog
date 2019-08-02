@@ -29,7 +29,7 @@
 
 #main-wrapper .post-index{
     width: calc(50% - 30px);
-    margin: 0 30px;
+    margin: 0 15px;
     float: left;
 }
 @media all and (max-width: 767px) {
