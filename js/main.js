@@ -1,8 +1,8 @@
 $(window).ready(function(){
 	initalGoTop();
 	if(_blog.pageType=="item"){
-		initPhotoDesc();
 		initTopAd();
+		initPhotoDesc();
 	}
 });
 
