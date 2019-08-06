@@ -26,7 +26,6 @@
 
 .font-farro{font-family: 'Farro', sans-serif;}
 
-
 #main-wrapper .post-index{
     width: calc(50% - 30px);
     margin: 0 15px;
@@ -56,5 +55,6 @@
     }
     html .post-body img {
         max-width: 100%;
+        width: 100%;
     }
 }
