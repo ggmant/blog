@@ -43,7 +43,7 @@
     }
 
     #main-wrapper{
-        margin: 0 15px;
+        margin: 0 15px !important;;
     }
     #main-wrapper .post-index{
         width: 100%;
