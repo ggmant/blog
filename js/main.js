@@ -9,6 +9,7 @@ $(window).ready(function(){
 
 function initPhotoDesc(){
 	var index=0;
+	var adsCount=0;
 	$(".post-body img").each(function(){
 		var width=$(this).attr('title');
 		var addTitle="";
@@ -23,7 +24,7 @@ function initPhotoDesc(){
 		}
 		index++;
 		var isAllowAd = $(this).width() >= $(".post-body").width();
-		if(index%10==0 && isAllowAd){
+		if(index%10==0 && adsCount<2 && isAllowAd){
 				addAD='<!---- GGM 內文廣告:start ---->'+
 				'<br />'+
 				'<div class="ads">'+
@@ -36,7 +37,10 @@ function initPhotoDesc(){
 		}
 
 		$(this)[0].outerHTML=html+addTitle+addAD;
-		if(addAD)(adsbygoogle = window.adsbygoogle || []).push({}); 
+		if(addAD){
+			(adsbygoogle = window.adsbygoogle || []).push({}); 
+			adsCount++;
+		}
 	});
 
 }
