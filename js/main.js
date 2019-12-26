@@ -1,6 +1,6 @@
 $(window).ready(function(){
 	initalGoTop();
-	if(if(_WidgetManager&&typeof _WidgetManager._GetAllData === 'function')){
+	if(_WidgetManager&&typeof _WidgetManager._GetAllData === 'function'){
 		if(_WidgetManager._GetAllData().blog.pageType=="item"){
 			initTopAd();
 			initPhotoDesc();
