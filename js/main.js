@@ -1,9 +1,15 @@
 $(window).ready(function(){
 	initalGoTop();
-	if(_blog.pageType=="item"){
+	if(if(_WidgetManager&&typeof _WidgetManager._GetAllData === 'function')){
+		if(_WidgetManager._GetAllData().blog.pageType=="item"){
+			initTopAd();
+			initPhotoDesc();
+		}
+	}
+	/*if(_blog.pageType=="item"){
 		initTopAd();
 		initPhotoDesc();
-	}
+	}*/
 });
 
 
